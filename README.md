@@ -10,16 +10,16 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 
  🧩 Step 1: Deploy a Windows Virtual Machine
 
-- **Resource Group:** `Vetolabs`
-- **VM Name:** `vetoadmin-vm`
-- **Region:** East US
-- **Size:** `Standard_DS1_v2`
-- **Image:** Windows 11 Pro
-- **Username:** `userveto`
-- **Password:** `XXXXXXXXX`
-- **Ports Allowed:** 3389 (RDP)
+- Resource Group: `Vetolabs`
+- VM Name: `vetoadmin-vm`
+- Region: East US
+- Size: `Standard_DS1_v2`
+- Image: Windows 11 Pro
+- Username: `userXXXX`
+- Password: `XXXXXXXXX`
+- Ports Allowed: 3389 (RDP)
 
-✅ **Action:** Create the VM through Azure Portal.
+✅ Action: Create the VM through Azure Portal.
 
 <img width="950" alt="vm-creation 2" src="https://github.com/user-attachments/assets/e6a7588c-7b4a-4e3f-a589-3738efa45e2e" />
 
@@ -73,8 +73,8 @@ We created a custom RBAC role to define fine-grained permissions and assigned it
 
 Used built-in Azure Policy: **Inherit a tag from the resource group**
 
-* **Tag Name:** `Environment`
-* **Value:** `Project1`
+* Tag Name: `Environment`
+* Value: `Project1`
 * Assigned to Resource Group: `Vetolabs`
 
 <img width="1069" alt="define initiative pt 2" src="https://github.com/user-attachments/assets/c2c47138-9494-4c0e-b274-c191815375ea" />
