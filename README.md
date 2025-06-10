@@ -1,6 +1,3 @@
-Here’s your complete `README.md` for **Azure Project 1: Compute and Identity Management**, formatted and ready for GitHub. I've added placeholders where you can paste your lab screenshots.
-
----
 
 ````markdown
 # 💻 Azure Project 1: Compute and Identity Management
@@ -19,12 +16,12 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 - **Size:** `Standard_DS1_v2`
 - **Image:** Windows 11 Pro
 - **Username:** `userveto`
-- **Password:** `Userkato11$$`
+- **Password:** `XXXXXXXXX`
 - **Ports Allowed:** 3389 (RDP)
 
 ✅ **Action:** Create the VM through Azure Portal.
 
-📸 _Screenshot Placeholder: VM Deployment Confirmation_
+<img width="961" alt="pt1 creating vm" src="https://github.com/user-attachments/assets/453a7224-0c29-4d89-a500-889ecc72b43f" />
 
 ---
 
@@ -47,14 +44,12 @@ az network nsg rule create \
   --nsg-name vetoadmin-vm-nsg \
   --name allow-SSH \
   --priority 1000 \
-  --source-address-prefixes 74.249.24.2/32 \
+  --source-address-prefixes 74.XXX.XX.2/32 \
   --destination-port-ranges 22 \
   --protocol TCP \
   --access Allow \
   --direction Inbound
 ````
-
-📸 *Screenshot Placeholder: SSH Enabled + NSG Rule*
 
 ---
 
@@ -68,7 +63,8 @@ We created a custom RBAC role to define fine-grained permissions and assigned it
 * Created role with `az role definition create`
 * Assigned role with `az role assignment create`
 
-📸 *Screenshot Placeholder: Custom Role Creation and Assignment*
+<img width="959" alt="Configured (RBAC)" src="https://github.com/user-attachments/assets/82fa05bc-9954-4db7-b289-92353e571b43" />
+<img width="1009" alt="group key vault admin" src="https://github.com/user-attachments/assets/51d4253f-9748-441f-bcfd-cfb114edbf67" />
 
 ---
 
@@ -80,7 +76,8 @@ Used built-in Azure Policy: **Inherit a tag from the resource group**
 * **Value:** `Project1`
 * Assigned to Resource Group: `Vetolabs`
 
-📸 *Screenshot Placeholder: Azure Policy Assignment*
+<img width="1069" alt="define initiative pt 2" src="https://github.com/user-attachments/assets/c2c47138-9494-4c0e-b274-c191815375ea" />
+<img width="1112" alt="inherent tags" src="https://github.com/user-attachments/assets/de13ee0f-72f2-458c-92bf-c23899532f52" />
 
 ---
 
@@ -91,8 +88,6 @@ Used Azure Cost Management to:
 * Filter costs by resource group `Vetolabs`
 * Visualize cost trends
 * Take action based on insights
-
-📸 *Screenshot Placeholder: Cost Analysis Breakdown*
 
 ---
 
