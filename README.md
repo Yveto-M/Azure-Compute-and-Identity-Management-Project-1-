@@ -6,8 +6,6 @@
 
 This project demonstrates how to deploy and manage a Windows Virtual Machine (VM) in Azure, implement secure access with SSH, apply Role-Based Access Control (RBAC), enforce tagging via Azure Policy, and analyze costs using Azure's billing features.
 
----
-
  🧩 Step 1: Deploy a Windows Virtual Machine
 
 - Resource Group: `Vetolabs`
@@ -20,8 +18,6 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 - Ports Allowed: 3389 (RDP)
 
 ✅ Action: Create the VM through Azure Portal.
-
----
 
 
  🔐 Step 2: Enable SSH Access on the VM
