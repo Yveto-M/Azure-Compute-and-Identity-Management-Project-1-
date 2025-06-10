@@ -21,8 +21,6 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 
 ✅ Action: Create the VM through Azure Portal.
 
-<img width="950" alt="vm-creation 2" src="https://github.com/user-attachments/assets/e6a7588c-7b4a-4e3f-a589-3738efa45e2e" />
-
 ---
 
 
