@@ -21,9 +21,10 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 
 ✅ **Action:** Create the VM through Azure Portal.
 
-<img width="961" alt="pt1 creating vm" src="https://github.com/user-attachments/assets/453a7224-0c29-4d89-a500-889ecc72b43f" />
+<img width="950" alt="vm-creation 2" src="https://github.com/user-attachments/assets/e6a7588c-7b4a-4e3f-a589-3738efa45e2e" />
 
 ---
+
 
 ## 🔐 Step 2: Enable SSH Access on the VM
 
@@ -88,6 +89,8 @@ Used Azure Cost Management to:
 * Filter costs by resource group `Vetolabs`
 * Visualize cost trends
 * Take action based on insights
+
+<img width="1051" alt="cost analysis" src="https://github.com/user-attachments/assets/d813e1d8-ae1c-4d77-ac9e-ce9ff9709d13" />
 
 ---
 
