@@ -1,14 +1,14 @@
 
 ````markdown
-# 💻 Azure Project 1: Compute and Identity Management
+ 💻 Azure Project 1: Compute and Identity Management
 
-## 🔍 Overview
+ 🔍 Overview
 
 This project demonstrates how to deploy and manage a Windows Virtual Machine (VM) in Azure, implement secure access with SSH, apply Role-Based Access Control (RBAC), enforce tagging via Azure Policy, and analyze costs using Azure's billing features.
 
 ---
 
-## 🧩 Step 1: Deploy a Windows Virtual Machine
+ 🧩 Step 1: Deploy a Windows Virtual Machine
 
 - **Resource Group:** `Vetolabs`
 - **VM Name:** `vetoadmin-vm`
@@ -26,11 +26,11 @@ This project demonstrates how to deploy and manage a Windows Virtual Machine (VM
 ---
 
 
-## 🔐 Step 2: Enable SSH Access on the VM
+ 🔐 Step 2: Enable SSH Access on the VM
 
 We enabled OpenSSH on a Windows VM to support secure remote access.
 
-### Azure CLI Commands:
+ Azure CLI Commands:
 
 ```bash
 az vm extension set \
@@ -54,11 +54,11 @@ az network nsg rule create \
 
 ---
 
-## 👥 Step 3: Create and Assign a Custom RBAC Role
+ 👥 Step 3: Create and Assign a Custom RBAC Role
 
 We created a custom RBAC role to define fine-grained permissions and assigned it to a user.
 
-### Key Tasks:
+ Key Tasks:
 
 * Defined JSON for custom role
 * Created role with `az role definition create`
@@ -69,7 +69,7 @@ We created a custom RBAC role to define fine-grained permissions and assigned it
 
 ---
 
-## 🏷️ Step 4: Enforce Tags Using Azure Policy Initiative
+ 🏷️ Step 4: Enforce Tags Using Azure Policy Initiative
 
 Used built-in Azure Policy: **Inherit a tag from the resource group**
 
@@ -82,7 +82,7 @@ Used built-in Azure Policy: **Inherit a tag from the resource group**
 
 ---
 
-## 💰 Step 5: Analyze Costs
+💰 Step 5: Analyze Costs
 
 Used Azure Cost Management to:
 
@@ -94,7 +94,7 @@ Used Azure Cost Management to:
 
 ---
 
-## ✅ Summary
+ ✅ Summary
 
 | Capability        | Demonstrated ✅ |
 | ----------------- | -------------- |
@@ -107,7 +107,7 @@ Used Azure Cost Management to:
 
 ---
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 ```
 project-1-azure-compute-identity/
@@ -124,7 +124,7 @@ project-1-azure-compute-identity/
 
 ---
 
-## 📌 Author
+ 📌 Author
 
 **Yveto Meus**
 Master’s in Cybersecurity | Azure & Identity Security Enthusiast
