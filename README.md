@@ -45,6 +45,7 @@ az network nsg rule create \
   --access Allow \
   --direction Inbound
 ````
+<img width="682" alt="generated-keyv" src="https://github.com/user-attachments/assets/36b29e6c-4d59-4b3b-9408-ed500d922dae" />
 
 ---
 
