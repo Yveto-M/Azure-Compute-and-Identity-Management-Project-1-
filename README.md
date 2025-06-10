@@ -64,8 +64,8 @@ We created a custom RBAC role to define fine-grained permissions and assigned it
 * Created role with `az role definition create`
 * Assigned role with `az role assignment create`
 
-<img width="959" alt="Configured (RBAC)" src="https://github.com/user-attachments/assets/82fa05bc-9954-4db7-b289-92353e571b43" />
 <img width="1009" alt="group key vault admin" src="https://github.com/user-attachments/assets/51d4253f-9748-441f-bcfd-cfb114edbf67" />
+<img width="959" alt="Configured (RBAC)" src="https://github.com/user-attachments/assets/82fa05bc-9954-4db7-b289-92353e571b43" />
 
 ---
 
